@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif !important;
+  overflow-x:hidden;
+  font-weight:600;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color:#1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255,255,255,0.3);
+}
+
+.site-layout .site-layout-background {
+  background:#fff;
+}
+
+.ant-layout-content {
+  min-height : 100vh !important;
+}
+
+.ant-layout-header span svg {
+  height:25px !important;
+  width: 25px !important;
+  margin-left:10px !important;
+}
+
+
+.logo h3 {
+  color: #fff;
+  padding: 5px ;
+  text-align:center; 
+  font-weight:3;
+  margin-top:14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-size: 18px !important;
+}
+
+.home, .tables {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding:20px;
+  margin:20px;
+  border-radius:10px;
+}
+
+thead{
+  box-shadow: rgba(0,0,0,0.24) 0px 3px 8px !important;
+  
+}
+
+.tabled{
+  margin-top:25px;
+}
+
+th{
+  font-weight:bold !important
+}
+
+input, textarea {
+  border-color:blue !important;
+} 
+
+.ant-radio{
+  border:1px solid blue !important;
+  border-radius: 50% !important;
+}
+
+.ant-select, .ant-picker{
+  border:1px solid blue !important;
+}
+
+.form, .todo{
+  box-shadow: rgba(0,0,0,0.24) 0px 3px  8px !important;
+  margin:20px !important;
+  padding:25px !important;
+  border-radius:15px !important;
+}
+
+.flex{
+  display:flex !important;
+  align-items:center !important;
+}
+
+.bs {
+  box-shadow: rgba(0,0,0,0.12) 0px 1px 3px, rgba(0,0,0,0.24) 0px 1px 2px;
+}
+
